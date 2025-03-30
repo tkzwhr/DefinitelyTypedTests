@@ -11,10 +11,10 @@
     "esModuleInterop": true,
     "baseUrl": "../",
     "paths": {
-      "@sabaki/sgf": [
-        "definitelytyped/types/sabaki__sgf"
+      "@sabaki/immutable-gametree": [
+        "definitelytyped/types/sabaki__immutable-gametree"
       ]
     }
   },
-  "include": ["src/**/*.cts"]
+  "include": ["src/**/*.cts", "tests/**/*.ts"]
 }

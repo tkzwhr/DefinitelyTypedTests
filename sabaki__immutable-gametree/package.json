@@ -1,0 +1,22 @@
+{
+  "name": "sabaki__immutable-gametree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.cts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node dist/main.cjs",
+    "test": "vitest --run"
+  },
+  "keywords": [],
+  "author": "Hiroki Takizawa",
+  "license": "MIT",
+  "dependencies": {
+    "@sabaki/immutable-gametree": "^1.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}

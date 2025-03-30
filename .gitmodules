@@ -1,4 +1,4 @@
 [submodule "definitelytyped"]
 	path = definitelytyped
 	url = https://github.com/tkzwhr/DefinitelyTyped.git
-	branch = sabaki__sgf
+	branch = sabaki__immutable-gametree
