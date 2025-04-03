@@ -16,5 +16,5 @@
       ]
     }
   },
-  "include": ["src/**/*.cts"]
+  "include": ["src/main.cts", "tests/**/*.ts"]
 }

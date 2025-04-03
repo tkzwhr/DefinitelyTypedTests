@@ -5,7 +5,7 @@
   "main": "src/main.cts",
   "type": "module",
   "scripts": {
-    "build": "tsc && node dist/main.cjs",
+    "build": "tsc --project tsconfig.build.json && node dist/main.cjs",
     "test": "vitest --run"
   },
   "keywords": [],
