@@ -1,5 +1,4 @@
 import * as sgf from "@sabaki/sgf";
-import { Vertex } from "@sabaki/sgf";
 import { describe, expect, test } from "vitest";
 
 // ref. https://github.com/SabakiHQ/sgf/blob/master/tests/helper.test.js
@@ -167,7 +166,7 @@ describe("parseVertex", () => {
     expect(sgf.parseVertex("AB")).toStrictEqual([26, 27]);
   });
   test("should be left inverse to stringifyVertex", () => {
-    const tests: Vertex[] = [
+    const tests: sgf.Types.Vertex[] = [
       [-1, -1],
       [10, 5],
       [9, 28],

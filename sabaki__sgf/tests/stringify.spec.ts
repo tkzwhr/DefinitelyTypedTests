@@ -1,10 +1,9 @@
 import * as sgf from "@sabaki/sgf";
-import { NodeObject } from "@sabaki/sgf";
 import { expect, test } from "vitest";
 
 // ref. https://github.com/SabakiHQ/sgf/blob/master/tests/stringify.test.js
 
-const gametrees: NodeObject[] = [
+const gametrees: sgf.Types.NodeObject[] = [
   {
     id: 0,
     parentId: null,

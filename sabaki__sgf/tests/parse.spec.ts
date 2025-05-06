@@ -1,5 +1,4 @@
 import * as sgf from "@sabaki/sgf";
-import { NodeObject } from "@sabaki/sgf";
 import * as path from "node:path";
 import { expect, test } from "vitest";
 
@@ -68,7 +67,7 @@ test("should parse variations", () => {
 });
 
 test("should emit onNodeCreated correctly", () => {
-  const nodes: NodeObject[] = [];
+  const nodes: sgf.Types.NodeObject[] = [];
 
   sgf.parse("(;B[hh](;W[ii])(;W[hi];C[h]))", {
     onNodeCreated({ node }) {
