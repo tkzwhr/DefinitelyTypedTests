@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sabaki__immutable-gametree": "pnpm -F \"sabaki__immutable-gametree\"",
+    "sabaki__sgf": "pnpm -F \"sabaki__sgf\""
   },
   "keywords": [],
   "author": "Hiroki Takizawa",
